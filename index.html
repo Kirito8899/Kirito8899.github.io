@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Académico</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            color: #fff;
+            background: #0c0c0c;
+            background-image: url("estructura de datos.png.avif");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        header {
+            backdrop-filter: blur(5px);
+            padding: 30px;
+            text-align: center;
+            animation: fadeDown 1.3s ease forwards;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.4rem;
+            font-weight: 600;
+            text-shadow: 0 0 10px #00eaff70;
+        }
+
+        p.subtitle {
+            margin-top: 8px;
+            font-size: 1.1rem;
+            opacity: 0.85;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 25px;
+            background: rgba(0,0,0,0.45);
+            backdrop-filter: blur(8px);
+            border-radius: 15px;
+            animation: fadeUp 1.3s ease forwards;
+            box-shadow: 0 0 18px #00eaff25;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+            border-left: 4px solid #00eaff;
+            padding-left: 10px;
+            text-shadow: 0 0 6px #00eaffaa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 18px;
+            opacity: 0.8;
+            font-size: 0.9rem;
+            margin-top: 40px;
+            backdrop-filter: blur(4px);
+        }
+
+        ul {
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #4fd6ff;
+            text-decoration: none;
+            transition: .25s;
+        }
+
+        a:hover {
+            color: #9beaff;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(25px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeDown {
+            from { opacity: 0; transform: translateY(-25px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>¡Bienvenido a mi GitHub Page!</h1>
+        <p>Este es un sitio alojado con GitHub Pages 🚀</p>
+    </header>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>Aquí puedes agregar una descripción, tu proyecto, tus enlaces o lo que tú quieras.</p>
+    </section>
+
+    <section>
+        <h2>Materias</h2>
+        <ul>
+            <li>Estructura de Datos</li>
+            <li>Sistemas Operativos</li>
+            <li>Programación</li>
+            <li>Bases de Datos</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Apuntes Recientes</h2>
+        <ul>
+            <li>Apuntes Clase 1</li>
+            <li>Preguntas Tema Árboles Binarios</li>
+            <li>Resumen Modelo Cliente/Servidor</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Hecho con ❤️ usando GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
 
