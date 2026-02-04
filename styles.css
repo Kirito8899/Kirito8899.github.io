@@ -1,20 +1,18 @@
+/* Texto general en blanco (para el fondo oscuro) */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
     padding: 20px;
-    color: #000; /* color de letra en negro corregido */
+    color: white;
 }
 
-h1 {
-    text-align: center;
-}
-
+/* Tabla */
 table {
     width: 100%;
     border-collapse: collapse;
     background-color: #ffffff;
 }
 
+/* Bordes y espaciado */
 th, td {
     border: 1px solid #cccccc;
     padding: 10px;
@@ -22,11 +20,18 @@ th, td {
     vertical-align: top;
 }
 
+/* Encabezados: NO se tocan */
 th {
     background-color: #2c3e50;
-    color: white; 
+    color: white;
 }
 
+/* ✅ Información de la tabla en NEGRO */
+td {
+    color: black;
+}
+
+/* Filas pares */
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
